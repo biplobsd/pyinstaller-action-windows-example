@@ -17,7 +17,6 @@ jobs:
       uses: biplobsd/pyinstaller-action-windows@main
       with:
         path: srcT3
-        spec: a.spec
 
     - uses: actions/upload-artifact@v2
       with:
