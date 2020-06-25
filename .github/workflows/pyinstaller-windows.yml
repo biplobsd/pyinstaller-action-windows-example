@@ -17,10 +17,10 @@ jobs:
       uses: biplobsd/pyinstaller-action-windows@main
       with:
         path: srcT3
+        spec: a.spec
 
     - uses: actions/upload-artifact@v2
       with:
         name: my-exe
         path: src/dist/windows # or path/to/artifact
-        spec: build_test1.spec
 
