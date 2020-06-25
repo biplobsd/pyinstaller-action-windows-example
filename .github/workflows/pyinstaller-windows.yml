@@ -16,10 +16,10 @@ jobs:
     - name: PyInstaller Windows
       uses: biplobsd/pyinstaller-action-windows@main
       with:
-        path: srcT3
+        path: src
 
     - uses: actions/upload-artifact@v2
       with:
         name: my-exe
-        path: srcT3/dist/windows # or path/to/artifact
+        path: src/dist/windows # or path/to/artifact
 
